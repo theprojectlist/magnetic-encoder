@@ -5,8 +5,8 @@ $Descr User 5197 4213
 encoding utf-8
 Sheet 1 1
 Title "Absolute Magnetic Angle Encoder"
-Date "2020-01-31"
-Rev "v2.0.3"
+Date "2020-02-03"
+Rev "v2.0.9"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -261,11 +261,11 @@ F 3 "~" H 800 2150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:8P8C J1
+L Connector:8P8C_Shielded J1
 U 1 1 5E357A4C
 P 1350 1350
-F 0 "J1" V 1453 920 50  0000 R CNN
-F 1 "8P8C" V 1362 920 50  0000 R CNN
+F 0 "J1" V 1600 1050 50  0000 R CNN
+F 1 "8P8C" V 1000 1500 50  0000 R CNN
 F 2 "Connector_RJ:RJ45_Amphenol_RJHSE5380" V 1350 1375 50  0001 C CNN
 F 3 "~" V 1350 1375 50  0001 C CNN
 	1    1350 1350
@@ -374,6 +374,17 @@ F 1 "+3V3" H 3465 1723 50  0000 C CNN
 F 2 "" H 3450 1550 50  0001 C CNN
 F 3 "" H 3450 1550 50  0001 C CNN
 	1    3450 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5E367020
+P 1850 1350
+F 0 "#PWR0107" H 1850 1100 50  0001 C CNN
+F 1 "GND" H 1855 1177 50  0000 C CNN
+F 2 "" H 1850 1350 50  0001 C CNN
+F 3 "" H 1850 1350 50  0001 C CNN
+	1    1850 1350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
